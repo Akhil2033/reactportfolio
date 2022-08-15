@@ -1,38 +1,198 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Patua+One&display=swap');
+@import url('https://api.fontshare.com/css?f[]=aktura@400&display=swap');
+@import url('http://fonts.cdnfonts.com/css/morgenlicht');
+@import url('http://fonts.cdnfonts.com/css/maginia');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+html {
+  box-sizing: border-box;
   color: white;
 }
+  *, *::before, *::after {
+  box-sizing:inherit;
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{  
+  background: #649173;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Cabinet Grotesk', sans-serif;
+  margin:0;
+  padding:1em;
+  box-sizing: border-box;
 }
+
+/*header*/
+.Container-1 {
+  display:flex; 
+  flex-flow:row wrap; 
+  gap:1em; 
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#siteName {
+  font: normal 2.75em 'Aktura', serif;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+#cope {
+    
+  margin:1em;
+}
+
+#cope a {
+  color:rgb(15, 14, 14);
+  text-decoration: none;
+  padding:1em;
+
+}
+
+#cope a:hover {
+  color:coral;
+}
+
+/*list*/
+.mainMenu li{
+  font:normal 1.25em 'morgenlicht', sans-serif;
+  display:inline-block;
+  list-style-type:none;
+  vertical-align:middle;
+  position:relative;
+  margin-right: 1.5em;
+  margin-top: 0.5em;
+  align-items: center;
+  padding:0;
+  
+}
+
+/* 4.About page */
+.bioTitle {
+  font: bold 2em 'morgenlicht', sans-serif;
+  margin-left:4%;
+  letter-spacing: 3px;
+  color:rgb(13, 13, 13);
+}
+
+.bioInfo {
+  font: bold 2em 'maginia', serif;
+  color:rgb(12, 12, 12);
+  text-align: left; 
+  width: 800px;
+  height:auto;
+  position: relative;
+  margin-left:10em; 
+  align-self: center;
+  text-align: center;  
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  padding: 1em;
+}
+
+/*skills*/
+.skillDiv {
+  text-align: center;
+  background-color: #D2EDE0;
+  font:bold 1em 'maginia', serif;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  padding: 1em;
+  margin: 2em;
+  color:black;
+
+}
+
+.skillTitle {
+  font: bolder 2em 'maginia', serif;
+  text-align: center;
+  padding: 0em;
+  line-height: 1.5em;
+  color: black;
+}
+
+.skillList {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin:20px; 
+  align-items: center; 
+  gap: 3em 3em;
+  padding: 1em;
+  color: white;
+  font-size: 1.5em;
+}
+
+
+.skillTile {
+  background: rgba(164, 83, 83, 0.47);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  border: 1px solid rgba(164, 83, 83, 0.48);
+  
+}
+
+.projectDiv {
+  text-align: center;
+  background-color: #D2EDE0;
+  font:bold 1em 'maginia', serif;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  padding: 1em;
+  margin: 2em;
+  color:black;
+
+}
+
+.projectHeading {
+  font: bolder 2em 'maginia', serif;
+  text-align: center;
+  padding: 0em;
+  line-height: 1.5em;
+  color: black;
+}
+
+.projectList {
+  display: grid;
+  grid-template-columns: auto auto ;
+  align-self: center;
+  margin:20px; 
+  align-items: center; 
+  gap: 1em 3em;
+  padding: 1em;
+  color: white;
+  font-size: 1.5em;
+}
+
+.ProjectTile {
+  width:auto; 
+  height:auto; 
+  margin:20px;  
+  flex:1 0 0 ;
+  background: rgba(164, 83, 83, 0.47);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  border: 1px solid rgba(164, 83, 83, 0.48);
+  font: normal 1em 'maginia', serif;
+  padding:0 1.5em;
+  text-align: left;
+  
+}
+
+

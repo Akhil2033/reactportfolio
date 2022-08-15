@@ -1,0 +1,237 @@
+{
+    "skill": [
+        {
+            "id": 7,
+            "title": "CSS",
+            "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Learn\/CSS",
+            "image": "https://live.staticflickr.com/65535/52285811489_066a75f199_m.jpg",
+            "created_at": "2022-08-13T05:18:57.000000Z",
+            "updated_at": "2022-08-13T05:24:08.000000Z"
+        },
+        {
+            "id": 5,
+            "title": "HTML",
+            "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Learn\/HTML",
+            "image":"https://live.staticflickr.com/65535/52285811484_183c4352f7_m.jpg",
+            "created_at": "2022-08-11T22:07:54.000000Z",
+            "updated_at": "2022-08-13T05:17:52.000000Z"
+        },
+        {
+            "id": 6,
+            "title": "JavaScript",
+            "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Learn\/Javascript",
+            "image": "https://live.staticflickr.com/65535/52285544801_3086b8db7c_m.jpg",
+            "created_at": "2022-08-13T05:18:29.000000Z",
+            "updated_at": "2022-08-13T05:23:59.000000Z"
+        },
+        {
+            "id": 12,
+            "title": "MongoDB",
+            "url": "https:\/\/www.mongodb.com\/",
+            "image": "https://live.staticflickr.com/65535/52285811514_f23eb9d3f5_n.jpg",
+            "created_at": "2022-08-13T05:21:30.000000Z",
+            "updated_at": "2022-08-13T05:25:56.000000Z"
+        },
+        {
+            "id": 9,
+            "title": "MySQL",
+            "url": "https:\/\/www.mysql.com\/",
+            "image": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+            "created_at": "2022-08-13T05:19:59.000000Z",
+            "updated_at": "2022-08-13T05:25:26.000000Z"
+        },
+        {
+            "id": 11,
+            "title": "Node.js",
+            "url": "https:\/\/nodejs.org\/en\/",
+            "image": "https://live.staticflickr.com/65535/52285550138_ce67ffdc33_z.jpg",
+            "created_at": "2022-08-13T05:20:52.000000Z",
+            "updated_at": "2022-08-13T05:25:46.000000Z"
+        },
+        {
+            "id": 8,
+            "title": "PHP",
+            "url": "https:\/\/www.php.net\/",
+            "image": "https://live.staticflickr.com/65535/52285544786_063b12f621_m.jpg",
+            "created_at": "2022-08-13T05:19:24.000000Z",
+            "updated_at": "2022-08-13T05:24:17.000000Z"
+        },
+        {
+            "id": 10,
+            "title": "React",
+            "url": "https:\/\/reactjs.org\/",
+            "image": "https://live.staticflickr.com/65535/52286031580_3a7cd73d82_m.jpg",
+            "created_at": "2022-08-13T05:20:29.000000Z",
+            "updated_at": "2022-08-13T05:25:36.000000Z"
+        }
+    ],
+    "projects": [
+        {
+            "id": 5,
+            "title": "CROCAL",
+            "url": null,
+            "slug": "---",
+            "image": null,
+            "content": "A web application which calculates croissants yield from the available raw ingredients.",
+            "type_id": 1,
+            "user_id": 1,
+            "created_at": "2022-08-11T21:56:15.000000Z",
+            "updated_at": "2022-08-14T06:01:47.000000Z",
+            "user": null,
+            "type": {
+                "id": 1,
+                "title": "WEB APPLICATION",
+                "created_at": "2022-08-10T02:27:59.000000Z",
+                "updated_at": "2022-08-11T21:56:48.000000Z"
+            }
+        },
+        {
+            "id": 6,
+            "title": "Aciheels",
+            "url": null,
+            "slug": "--",
+            "image": null,
+            "content": "A boutique footwear store website created as a part of academic assignment.This web site is created using Node.js.",
+            "type_id": 2,
+            "user_id": 3,
+            "created_at": "2022-08-13T04:09:05.000000Z",
+            "updated_at": "2022-08-13T04:09:05.000000Z",
+            "user": {
+                "id": 3,
+                "first": "Akhil",
+                "last": "V",
+                "email": "akhil@gmail.com",
+                "email_verified_at": null,
+                "created_at": "2022-08-11T22:24:12.000000Z",
+                "updated_at": "2022-08-11T22:24:12.000000Z"
+            },
+            "type": {
+                "id": 2,
+                "title": "Web site",
+                "created_at": "2022-08-10T02:27:59.000000Z",
+                "updated_at": "2022-08-13T04:09:43.000000Z"
+            }
+        },
+        {
+            "id": 8,
+            "title": "Film production database",
+            "url": null,
+            "slug": "null",
+            "image": null,
+            "content": "This is a database system which will be helpful for people who are in movie production business or people who are interested in tracking movie production details.This project is implemented using C#ASP.NET",
+            "type_id": 1,
+            "user_id": 3,
+            "created_at": "2022-08-14T22:00:44.000000Z",
+            "updated_at": "2022-08-14T22:00:44.000000Z",
+            "user": {
+                "id": 3,
+                "first": "Akhil",
+                "last": "V",
+                "email": "akhil@gmail.com",
+                "email_verified_at": null,
+                "created_at": "2022-08-11T22:24:12.000000Z",
+                "updated_at": "2022-08-11T22:24:12.000000Z"
+            },
+            "type": {
+                "id": 1,
+                "title": "WEB APPLICATION",
+                "created_at": "2022-08-10T02:27:59.000000Z",
+                "updated_at": "2022-08-11T21:56:48.000000Z"
+            }
+        },
+        {
+            "id": 7,
+            "title": "The JUKEBOX",
+            "url": null,
+            "slug": "----",
+            "image": null,
+            "content": "A website created in collaboration with UI\/UX designers as a part of academic assignment. This website is for an imaginary retro themed diner named \"The Jukebox.\" This website is created using Vanilla HTML, JS(jquery framework), CSS and Figma for design visualisation.",
+            "type_id": 2,
+            "user_id": 3,
+            "created_at": "2022-08-13T04:16:31.000000Z",
+            "updated_at": "2022-08-13T04:16:31.000000Z",
+            "user": {
+                "id": 3,
+                "first": "Akhil",
+                "last": "V",
+                "email": "akhil@gmail.com",
+                "email_verified_at": null,
+                "created_at": "2022-08-11T22:24:12.000000Z",
+                "updated_at": "2022-08-11T22:24:12.000000Z"
+            },
+            "type": {
+                "id": 2,
+                "title": "Web site",
+                "created_at": "2022-08-10T02:27:59.000000Z",
+                "updated_at": "2022-08-13T04:09:43.000000Z"
+            }
+        }
+        
+    ],
+    "bio": [
+        {
+            "id": 1,
+            "info": "I am Akhilender Vallab (Akhil). I worked in IT industry few years ago in India. I pursued my Masters in Melbourne, Australia for 2 years and currently I am living in Toronto,Canada pursuing my PG in Web development.",
+            "created_at": "2022-08-10T02:27:59.000000Z",
+            "updated_at": "2022-08-11T21:59:09.000000Z"
+        }
+    ],
+    "contact": [
+        {
+            "id": 1,
+            "title": "AKHILENDER VALLAB",
+            "Ph_no": "+1 4164346428",
+            "email": "Akhilender1@gmail.com",
+            "created_at": "2022-08-10T02:27:59.000000Z",
+            "updated_at": "2022-08-11T21:59:59.000000Z"
+        }
+    ],
+    "education": [
+        {
+            "id": 5,
+            "title": "PGD in Web development",
+            "school": "Humber College",
+            "start_date": "2022-01-10",
+            "end_date": "2022-12-28",
+            "created_at": "2022-08-11T22:01:29.000000Z",
+            "updated_at": "2022-08-11T22:01:29.000000Z"
+        },
+        {
+            "id": 6,
+            "title": "Masters in Electronics",
+            "school": "RMIT University",
+            "start_date": "2017-07-17",
+            "end_date": "2020-11-10",
+            "created_at": "2022-08-11T22:02:25.000000Z",
+            "updated_at": "2022-08-11T22:02:25.000000Z"
+        }  
+    ],
+    "social": [
+        {
+            "id": 6,
+            "title": "Github",
+            "url": "https:\/\/github.com\/Akhil2033",
+            "image": "https://img.icons8.com/material-outlined/344/github.png",
+            "created_at": "2022-08-13T04:18:51.000000Z",
+            "updated_at": "2022-08-13T05:09:51.000000Z"
+        },
+        {
+            "id": 1,
+            "title": "Linkedin",
+            "url": "https:\/\/www.linkedin.com\/in\/akhilender-vallab\/",
+            "image": "https://img.icons8.com/glyph-neue/344/linkedin-circled.png",
+            "created_at": "2022-08-10T02:27:59.000000Z",
+            "updated_at": "2022-08-13T05:10:37.000000Z"
+        },
+        {
+            "id": 5,
+            "title": "Twitter",
+            "url": "https:\/\/twitter.com\/",
+            "image": "https://img.icons8.com/ios-filled/344/twitter-circled--v1.png",
+            "created_at": "2022-08-13T04:18:20.000000Z",
+            "updated_at": "2022-08-13T05:07:54.000000Z"
+        }
+    ]
+
+
+}   
