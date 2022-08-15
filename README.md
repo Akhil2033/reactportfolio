@@ -1,6 +1,5 @@
 # Varcel deloyed link
-https://reactportfolio-wnqmtulli-akhil2033.vercel.app/
-
+https://reactportfolio-ij0shq41h-akhil2033.vercel.app/
 
 # Getting Started with Create React App
 
