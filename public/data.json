@@ -4,7 +4,7 @@
             "id": 7,
             "title": "CSS",
             "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Learn\/CSS",
-            "image": "https://live.staticflickr.com/65535/52285811489_066a75f199_m.jpg",
+            "image": "https://cdn.worldvectorlogo.com/logos/css-3.svg",
             "created_at": "2022-08-13T05:18:57.000000Z",
             "updated_at": "2022-08-13T05:24:08.000000Z"
         },
@@ -12,7 +12,7 @@
             "id": 5,
             "title": "HTML",
             "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Learn\/HTML",
-            "image":"https://live.staticflickr.com/65535/52285811484_183c4352f7_m.jpg",
+            "image":"https://cdn.worldvectorlogo.com/logos/html-1.svg",
             "created_at": "2022-08-11T22:07:54.000000Z",
             "updated_at": "2022-08-13T05:17:52.000000Z"
         },
@@ -20,7 +20,7 @@
             "id": 6,
             "title": "JavaScript",
             "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Learn\/Javascript",
-            "image": "https://live.staticflickr.com/65535/52285544801_3086b8db7c_m.jpg",
+            "image": "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
             "created_at": "2022-08-13T05:18:29.000000Z",
             "updated_at": "2022-08-13T05:23:59.000000Z"
         },
@@ -28,7 +28,7 @@
             "id": 12,
             "title": "MongoDB",
             "url": "https:\/\/www.mongodb.com\/",
-            "image": "https://live.staticflickr.com/65535/52285811514_f23eb9d3f5_n.jpg",
+            "image": "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
             "created_at": "2022-08-13T05:21:30.000000Z",
             "updated_at": "2022-08-13T05:25:56.000000Z"
         },
@@ -36,7 +36,7 @@
             "id": 9,
             "title": "MySQL",
             "url": "https:\/\/www.mysql.com\/",
-            "image": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+            "image": "https://cdn-icons-png.flaticon.com/512/5968/5968254.png",
             "created_at": "2022-08-13T05:19:59.000000Z",
             "updated_at": "2022-08-13T05:25:26.000000Z"
         },
@@ -44,7 +44,7 @@
             "id": 11,
             "title": "Node.js",
             "url": "https:\/\/nodejs.org\/en\/",
-            "image": "https://live.staticflickr.com/65535/52285550138_ce67ffdc33_z.jpg",
+            "image": "https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
             "created_at": "2022-08-13T05:20:52.000000Z",
             "updated_at": "2022-08-13T05:25:46.000000Z"
         },
@@ -52,7 +52,7 @@
             "id": 8,
             "title": "PHP",
             "url": "https:\/\/www.php.net\/",
-            "image": "https://live.staticflickr.com/65535/52285544786_063b12f621_m.jpg",
+            "image": "https://cdn-icons-png.flaticon.com/512/5968/5968332.png",
             "created_at": "2022-08-13T05:19:24.000000Z",
             "updated_at": "2022-08-13T05:24:17.000000Z"
         },
@@ -60,7 +60,7 @@
             "id": 10,
             "title": "React",
             "url": "https:\/\/reactjs.org\/",
-            "image": "https://live.staticflickr.com/65535/52286031580_3a7cd73d82_m.jpg",
+            "image": "https://cdn-icons-png.flaticon.com/512/3334/3334886.png",
             "created_at": "2022-08-13T05:20:29.000000Z",
             "updated_at": "2022-08-13T05:25:36.000000Z"
         }
