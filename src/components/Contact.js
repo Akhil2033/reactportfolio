@@ -22,14 +22,14 @@ class Contact extends React.Component {
     render() {
         const { contactData } = this.state;
         return (
-            <div className="contactDiv">
+            <div id="conLink" className="contactDiv">
                 <h2 className="contactTitle">Contact Me</h2>
                 <div className="contactInfo">
                     {contactData.map(c => (
                         <div key={c.id}> 
-                            <span>{c.title}</span>
-                            <span>{c.Ph_no}</span> 
-                            <span>{c.email}</span> 
+                            <div id="cInfo">{c.title}</div>
+                            <div id="cInfo">{c.Ph_no}</div> 
+                            <div id="cInfo">{c.email}</div> 
                         </div>
                     ))
                     }

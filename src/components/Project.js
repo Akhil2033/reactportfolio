@@ -23,11 +23,11 @@ class Project extends React.Component {
 
         const { projectData } = this.state;
         return (
-            <div className="projectDiv">
+            <div id="projectLink" className="projectDiv">
                 <h2 className="projectHeading">PROJECTS</h2>
                 <div className="projectList">
                 {projectData.map(p => (
-                        <div key={p.id} className="ProjectTile">
+                        <div key={p.id} className="projectTile">
                             <h3>{p.title}</h3>
                             <p>{p.content}</p>
                         </div>

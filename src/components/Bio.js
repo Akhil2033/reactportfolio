@@ -22,7 +22,7 @@ class Bio extends React.Component {
     render() {
         const { bioData } = this.state;
         return (
-            <div className="bioDiv">
+            <div id="bioLink" className="bioDiv">
                 <h2 className="bioTitle">ABOUT</h2>
                 <div className="bioInfo">
                     <span>Hello!</span>

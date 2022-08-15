@@ -22,7 +22,7 @@ class Skill extends React.Component {
     render() {
         const { skillData } = this.state;
         return (
-            <div className="skillDiv">
+            <div id="skillLink" className="skillDiv">
                 <h2 className="skillTitle">SKILLS</h2>
                 <div className="skillList">
                     {skillData.map(s => (

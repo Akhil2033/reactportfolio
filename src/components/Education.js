@@ -23,18 +23,18 @@ class Education extends React.Component {
 
         const { educationData } = this.state;
         return (
-            <div className="educationDiv">
-                    <h2 className="EducationTitle">Education</h2>
-                    <div className="educationTile">
-                        {educationData.map(e => (
-                                <div key={e.id}>
-                                    <h3>{e.title}</h3>
-                                    <div>{e.school}</div>
-                                    <div>Graduated: {e.end_date}</div>
-                                </div>
-                            ))
-                        }
-                    </div>
+            <div id="eduLink" className="educationDiv">
+                <h2 className="educationTitle">Education</h2>
+                <div className="educationList">
+                    {educationData.map(e => (
+                            <div key={e.id} className="educationTile">
+                                <h3>{e.title}</h3>
+                                <div className="einfo">{e.school}</div>
+                                <div className="einfo">Graduated: {e.end_date}</div>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
         );
     }

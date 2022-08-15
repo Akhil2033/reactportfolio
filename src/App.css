@@ -68,11 +68,13 @@ body{
   
 }
 
+
+
 /* 4.About page */
 .bioTitle {
-  font: bold 2em 'morgenlicht', sans-serif;
+  font: bolder 2em 'morgenlicht', sans-serif;
+  letter-spacing: 2px;
   margin-left:4%;
-  letter-spacing: 3px;
   color:rgb(13, 13, 13);
 }
 
@@ -113,7 +115,8 @@ body{
 }
 
 .skillTitle {
-  font: bolder 2em 'maginia', serif;
+  font: bolder 2.5em 'morgenlicht', sans-serif;
+  letter-spacing: 2px;
   text-align: center;
   padding: 0em;
   line-height: 1.5em;
@@ -141,7 +144,7 @@ body{
   border: 1px solid rgba(164, 83, 83, 0.48);
   
 }
-
+/*project*/
 .projectDiv {
   text-align: center;
   background-color: #D2EDE0;
@@ -159,7 +162,8 @@ body{
 }
 
 .projectHeading {
-  font: bolder 2em 'maginia', serif;
+  font: bolder 2.5em 'morgenlicht', sans-serif;
+  letter-spacing: 2px;
   text-align: center;
   padding: 0em;
   line-height: 1.5em;
@@ -168,17 +172,17 @@ body{
 
 .projectList {
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto;
   align-self: center;
   margin:20px; 
   align-items: center; 
   gap: 1em 3em;
   padding: 1em;
-  color: white;
   font-size: 1.5em;
+  color: white;
 }
 
-.ProjectTile {
+.projectTile {
   width:auto; 
   height:auto; 
   margin:20px;  
@@ -192,7 +196,126 @@ body{
   font: normal 1em 'maginia', serif;
   padding:0 1.5em;
   text-align: left;
+}
+
+.projectTile h3 {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.projectTile p {
+  color: black;
+  font-weight: 800;
+}
+/*education*/
+
+
+.educationDiv {
+  text-align: center;
+  background-color: #D2EDE0;
+  font:bold 1em 'maginia', serif;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  padding: 1em;
+  margin: 2em;
+  color:black;
+
+}
+
+.educationTitle {
+  font: bolder 2.5em 'morgenlicht', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-left: 1.25em;
+  line-height: 1em;
+  color: black;
+}
+
+.educationList {
+  display: grid;
+  grid-template-columns: auto auto ;
+  margin:20px; 
+  align-items: center; 
+  gap: 3em 3em;
+  padding: 1em;
+  color: white;
+  font-size: 1.5em;
+}
+.educationTile {
+  background: rgba(164, 83, 83, 0.47);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  border: 1px solid rgba(164, 83, 83, 0.48);
+}
+
+.einfo {
+  color: #1c122a;
+  font-weight: bolder;
+}
+
+/*contact*/
+
+.contactDiv {
+  text-align: center;
+  background-color: #D2EDE0;
+  font:bold 1em 'maginia', serif;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  padding-left: 4em;
+  margin: 2em;
+  color:black;
+
+}
+
+.contactTitle {
+  font: bolder 2.5em 'morgenlicht', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1em;
+  color: black;
+}
+
+#cInfo {
+  color: white;
+  font: bolder 1.5em 'maginia', serif;
   
 }
 
+/*footer*/
+.socialDiv {
+  display: flex; 
+  flex-flow: row wrap; 
+  margin: 2em; 
+  justify-content: space-between;
+  align-items: center;
+  font: 1em 'Nunito', sans-serif;
+  
+}
+.socialList li {
+  display:inline-block;
+  list-style-type:none;
+  vertical-align:middle;
+  position:relative;
+  margin-right: 1.5em;
+  margin-top: 0.5em;
+  align-items: center;
+}
 
+.socialList {
+  padding-left:0em;
+}
+
+.socialList li:hover {
+  background-color:coral;
+  border-radius:50px 40px;
+}
